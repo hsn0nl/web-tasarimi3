@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kültürel Tarihi Ve Mirası</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  <style>
+    .container {
+      width: 50%;
+      height: 50%;
+    }
+
+    .baslik {
+      margin-top: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 100;
+    }
+
+    .carousel-item {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .altBaslik1 {
+      margin-top: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 100;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="home.html"><i class="fa-solid fa-house-chimney"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hakkimda.html" target="_blank">Hakkımda</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Şehrim
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="mirasimiz.html" target="_blank">Kültürel Tarihi Ve Mirası</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="dogasi.html" target="_blank">Doğal Güzellikleri</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="lezzetleri.html" target="_blank">Lezzetleri</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iletisimBilgileri.html" target="_blank">İletişim Bilgileri</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="log">
+          <button class="log" type="submit">Kayıt Ol</button>
+          <button class="log" type="submit">Üye Girişi</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="baslik">
+    <center>
+      <h1>Diyarbakır Tarihi Ve Kültürel Mirası</h1>
+    </center>
+  </div>
+
+  <div class="container mt-4 ">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Diyarbakır-Malabadi.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>MALABADİ KÖPRÜSÜ</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Diyarbakır-Hevsel.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>HEVSEL BAHÇELERİ</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="hasanpaşahanı.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>HASANPAŞA HANI</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="icKale.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>İÇ KALE</h3>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br>
+    <p>
+      Kökleri Asurlar’dan Osmanlı’ya dek uzanan 9 bin yıllık geçmişiyle Güneydoğu Anadolu Bölgesi’ndeki en eski ve en
+      büyük
+      illerden biri olan, “Peygamberler Şehri” olarak da adlandırılan Diyarbakır; kültür ve tarih öğrenmeye meraklı
+      herkesi
+      kendine çeken bir şehir.
+
+      Yöresel mutfağı, UNESCO Dünya Miras listesine girmiş Diyarbakır Kalesi ve Hevsel Bahçeleri ve daha onlarca
+      gezilecek
+      görkemli tarihi noktalarıyla Diyarbakır’ın tarihi ve doğal güzelliklerini tanımanız için yazımızı okuyup bizimle
+      keyifli bir yolculuğa çıkmaya hazırlanın!
+    </p>
+    <br>
+
+    <h3 class="altBaslik1">Diyarbakır' ın Kültürü</h3>
+    <img src="UluCami.webp" alt="" width="100%"><br><br>
+    <p>Diyarbakır, çok sayıda uygarlığın izlerini taşıyan, zengin tarihi ve kültürel birikimi ile medeniyetlerin
+      Yerleşim alanı ve merkezi olmuştur. Bu sayede bir tarih ve kültür merkezi olma özelliğini her zaman
+      Koruyabilmeyi başarmıştır. Diyarbakır’da sırasıyla Hurriler, Mitanniler, Hititler, Asurlar, Medler, Persler,
+      Romalılar, Bizanslılar, Araplar, Selçuklular, Osmanlılar ve Selçuklular gibi büyük devletler hüküm
+      Sürmüştür. Hurriler’den başlayarak Osmanlılara kadar uzanan yoğun bir tarihi geçmişi olan Diyarbakır’da
+      Yaşayan medeniyetler, dönemlerine ait izlerle kenti ölümsüzleştirmişlerdir. Diyarbakır, el sanatları ve
+      sivil mimari özellikleriyle de tarihi zenginliklerini geleceğe taşımaktadır.</p><br><br>
+
+    <h3 class="altBaslik1">Edebiyat Ve Müzik</h3>
+    <img src="diyarbakirin-kulturu.webp" alt="" width="100%"><br><br>
+    <p>Şevket Beysanoğlu’nun “Diyarbakırlı Fikir ve Sanat Adamları” kitabında 668 fikir ve sanat adamı yer
+      almaktadır. Bunlardan 28’i şair, 171’i yazar, 193’u bilim adamı; 46’sı ise hattat, ressam ve bestekardır.
+      Bunlardan 62’si Diyarbakır’ın El sanatları Örnekleri Osmanlı döneminden önce, 246’sı Osmanlı ve
+      Cumhuriyet döneminde yaşamışlardır. Yazdıkları eserlerin toplamı 2000’i bulmaktadır. Diyarbakır’da
+      halk edebiyatı denince akla hemen dengbejler gelir. Dengbej, “halk ozanı” ve “hikaye anlatan”
+      anlamında kullanılmaktadır. Dengbejler, yöre yöre gezerek, efsaneleri, destanları anlatır, hayatlarını
+      bu şekilde kazanırlar. Kaval veya sazla gezen dengbejler, gittikleri yerlerin türkü ve destanlarını da
+      yeniden derleyip geliştirirler. Bu kültürü koruma yönünde birçok çalışma yapılmaktadır.</p><br><br>
+
+    <h3 class="altBaslik1">El Sanatları</h3>
+    <img src="el_sanatlari.5.jpg" alt="" width="49.50%" style="display: inline-block;">
+    <img src="el_sanatlari.jpg" alt="" width="49.50%"><br><br>
+    <p>Diyarbakır’ın geleneksel el sanatları içerisinde kuyumculuk, ipekçilik, bakırcılık önde gelmektedir.
+      Şehrin el sanatları, 19. yüzyılın sonuna kadar çok ileri bir düzeyde idi. Eskisi kadar olmamakla birlikte
+      günümüzde önemini koruyan bu el sanatlarında hasır bilezik, kişniş gerdanlık, gümüş işlemeli nalın
+      ve çekmeceler Diyarbakır kuyumcularının beğenilen ürünleri arasındadır. İpek börekçiliği ise Merkez,
+      Kulp, Silvan, Lice ilçelerinde yapılmakta, ipekli kumaşlar, mendiller ve puşular üretilmektedir.
+      Çömlekçilik, saraçlık, Keçecilik, kilim, sicim, heybe dokumacılığı, işlemeli peşkir, peştamal ve halı dokumacılığı
+      Diyarbakır’ın diğer el sanatı ürünlerini oluşturur.</p><br><br>
+
+    <h3 class="altBaslik1">Kuyumculuk</h3>
+    <img src="kuyumcularCarsisi.webp" alt="" width="100%"><br><br>
+    <p>Diyarbakır’ın en önemli el sanatlarından birisi kuşkusuz kuyumculuktur. Hala eski tip üretimini
+      sürdüren ailelerden işlenmiş ayna, gulabdan, nalin, ziynet, takunya, hasır bilezik ve gerdan başta
+      olmak üzere takılarını korumak icin “pestahtah” adı verilen gümüş işlemeli sandıklar bulabilirsiniz.
+      Kuyumculuk sanatının en büyük ismi 940 yılında bolgede doğan Ahmet Çelebi’dir. Ahmet Çelebi’nin
+      yaptığı altın, gümüş ve mücevherata ilişkin ürünler oldukça ilgi görüyordu. Günümüzde kuyumculuk,
+      Diyarbakır’ın en önemli sektörlerinden biri olmaya devam etmektedir. Ancak altın işçiliği yapan
+      atölye sayısı oldukça azalmıştır. Konya’da Mevlana Türbesi’nin ikinci kapısı, Bağdat’taki İmam-ı Azam
+      Türbesinin nefis altın ve gümüş işlemeli kapısı, avize, şamdan ve kandilleri Diyarbakır’da yapılmıştır.</p>
+    <br><br>
+
+    <h3 class="altBaslik1">İpekçilik</h3>
+    <img src="ipekdokuma.jpg" alt="" width="100%"><br><br>
+    <p>19. yüzyılda kırmızı kok boya ile boyanmış Diyarbakır ipliği Avrupa’da unluydu. Diyarbakır, ipek ve
+      pamuk üretimi acısından önemini 19. yüzyıla kadar devam ettirmiştir. Özellikle Kulp, Silvan ve Lice ilçelerinde
+      ipekçilik yaygındı. Yöre kilim, sicim, heybe dokuma özellikleriyle dikkat çekicidir. Silvan’da dokumacılık
+      hala eski önemini sürdürmektedir. Özellikle dağ köylerinde yedi renkten oluşan desenli ve
+      halk arasında “yemeni” olarak bilinen kilimler, çantalar, seccadeler üretilmektedir. Keçi kılından “kon”
+      denilen siyah çadırlar, kilimler ve kaim ipler dokunmaktadır. İlçede halıcılık, battaniyecilik, rengarenk
+      kazaklar, çoraplar ve daha nicelerinde ipekçilik sanatı kendine yer edinmiştir.</p><br><br>
+
+    <h3 class="altBaslik1">Bakırcılık</h3>
+    <img src="bakircilar1.jpg" alt="" width="100%"><br><br>
+    <p>Alüminyum ve plastiğin yaygınlaşmasıyla birlikte bakır önemini eskiye oranla yitirmiştir. Ancak son
+      dönemlerde bakır ile yapılan urun çeşitliliğinin artması, sus ve kullanım eşyası olarak farklı şekillerde
+      sunulması bakıra ilgiyi tekrardan artırmıştır.
+      Kaşık, şekerlik, semaver, sigaralık ,biblo, tabak, tepsi gibi sus eşyalarının üretimi sürmektedir.</p><br><br>
+
+    <h3 class="altBaslik1">Çinicilik</h3>
+    <img src="cinicilikjpg.jpg" alt="" width="100%"><br><br>
+    <p>Diyarbakır’daki önemli geleneksel sanatlar arasındadır. Yöredeki köşk, konak ve camilerin çinilerinin
+      çoğu Diyarbakır’da üretilmiştir. İznik ve klasik Osmanlı çiniciliğinin genel özelliklerini taşısa da yöresel
+      motiflerde farklılık görülmektedir. Cini fırınları; Fatih Paşa ile Nasuh Paşa Camileri arasında, Zincirkıran
+      Türbesi civarında bulunmaktaydı. Ayrıca Lice ve diğer bölgelerde de seramik ve cini yapılmaktaydı.
+      Günümüzde birkaç atölyede cini üretimi yapılmaktadır. <br>
+      Osmanlı döneminde çini üretim merkezlerinden biri olarak bilinen Diyarbakır’da, çini süsleme daha çok camilerde
+      karşımıza çıkmaktadır. Hüsrev Paşa Camii, İskender Paşa Camii, Ali Paşa Camii, Behram Paşa Camii, Melek Ahmet Paşa
+      Camii ve Akkoyunlu eseri olan Nebi Camii, söz konusu dönem çinileriyle süslenmiş örneklerdir. Osmanlı çinilerinin
+      mezar anıtlarındaki tek örneği ise Sahabeler Türbesi’nde yer almaktadır. </p><br><br>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
